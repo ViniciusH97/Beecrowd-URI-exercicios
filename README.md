@@ -2,4 +2,4 @@
 
 Problemas resolvidos do URI(Beecrowd)
 
-A maioria dos problemas resovidos são de dificuldade iniciante.
+A maioria dos problemas resolvidos são de dificuldade iniciante.
