@@ -12,7 +12,7 @@ int main(){
     double t = (nota[0] * 2)+ (nota[1] * 3) + (nota[2] * 4)+ nota[3];
     media = t/10;
 
-    std::cout<<"Media: " << media << std::endl;
+    std::cout<<"Media: "<< std::setprecision(2) << media << std::endl;
 
     if (media >= 7.0){
         std::cout<<"Aluno aprovado."<<std::endl;
