@@ -1,7 +1,5 @@
 #include<stdio.h>
 
-using namespace std;
-
 int main()
 {
     int I=1, S=0, C=0; 
