@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 
 int main(){
 
@@ -21,8 +22,9 @@ int main(){
     if(a == b && b == c && a == c)
         std::cout<<"TRIANGULO EQUILATERO"<<std::endl;
     
-    if(a == b && b != c && c != a)
+    if(a == b && a == c && b != c)
         std::cout<<"TRIANGULO ISOSCELES"<<std::endl;
+    
 
     return 0;
 }
