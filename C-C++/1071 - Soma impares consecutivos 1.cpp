@@ -1,35 +1,23 @@
 #include <iostream>
-#include <cmath>
 
-int main(){
+int main() {
+    int x, y, soma;
 
-    int a, b, aux;
-
-    std::cin >> a >> b;
-
-    if(a == b){
-        std::cout<<0<<std::endl;
-
-        return 0;
+    std::cin>>x>>y;
+    
+    if (x > y) {
+        int aux = x;
+        x = y;
+        y = aux;
     }
 
-    if(b < 0){
-        b = std::abs(b);
-    }
-
-    aux = a;
-
-    while(a != b){
-        if(a%2 != 0){
-            if(aux == a){
-                a--;
-            }else{
-                a--;
-            }
-        }else{
-            a--;
-            std::cout<<a<<std::endl;
+    for (int i=x+1; i<y; ++i) {
+        if (i % 2 != 0) {
+            soma += i;
         }
     }
 
+    std::cout<< soma << std::endl;
+
+    return 0;
 }
