@@ -1,13 +1,13 @@
-#include <stdio.h>
+#include <iostream>
 
-int main()
-{
-	int N;
-	scanf("%d", &N);
+int main(void){
 
-	for (int C = 1; C <= 10; C++)
-	{
-		printf("%d x %d = %d\n", C, N, C * N);
-	}
-	return 0;
+    int n, res=0;
+
+    std::cin>>n;
+
+    for(int i=1;i<=10;i++){
+        res = n * i;
+        std::cout<<i<<" x "<<n<<" = "<<res<<std::endl;  
+    }
 }
