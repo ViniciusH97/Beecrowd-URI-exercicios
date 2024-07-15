@@ -1,6 +1,6 @@
 # Beecrowd
 
-![Beecrowd Logo](https://www.beecrowd.com.br/judge/static/img/beecrowd.png)
+![Beecrowd Logo]([https://www.beecrowd.com.br/judge/static/img/beecrowd.png](https://hermes.dio.me/articles/cover/3f84021b-aa8b-45b2-9641-8d2fe240174e.jpg))
 
 ## Exercícios resolvidos do Beecrowd
 
