@@ -2,6 +2,8 @@
 
 ## Exercícios resolvidos do Beecrowd
 
+[![Clique aqui para acessar o Beecrowd](https://img.shields.io/badge/Visitar%20Beecrowd-007bff?style=for-the-badge&logo=beecrowd&logoColor=white)](https://www.beecrowd.com.br/)
+
 ## O que é Beecrowd?
 
 ## Introdução
