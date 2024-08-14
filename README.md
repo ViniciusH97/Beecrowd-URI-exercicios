@@ -6,8 +6,6 @@
 
 ## O que é Beecrowd?
 
-## Introdução
-
 Beecrowd é uma plataforma online voltada para a prática e aprendizado de programação. Com desafios de diferentes níveis de dificuldade, a plataforma é amplamente utilizada por estudantes, desenvolvedores e entusiastas da programação para melhorar suas habilidades de codificação.
 
 ## Objetivos
