@@ -6,9 +6,12 @@ int main(){
 
     std::cin>>a>>b;
 
-    if(a % b == 0 || b % a == 0){
+    if(a % b == 0 || b % a == 0)
+    {
         std::cout<<"Sao Multiplos"<<std::endl;
-    }else{
+    }
+    else
+    {
         std::cout<<"Nao sao Multiplos"<<std::endl;
     }
 

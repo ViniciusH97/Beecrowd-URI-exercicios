@@ -5,7 +5,8 @@ int main(){
 
     double nota[4], media, nota_exame;
     int i;
-    for(i=0; i<4; i++){
+    for(i=0; i<4; i++)
+    {
         std::cin>>nota[i];
     }
 
@@ -14,11 +15,16 @@ int main(){
 
     std::cout<<"Media: "<< std::fixed <<std::setprecision(1) << media << std::endl;
 
-    if (media >= 7.0){
+    if (media >= 7.0)
+    {
         std::cout<<"Aluno aprovado."<<std::endl;
-    }else if(media < 5.0){
+    }
+    else if(media < 5.0)
+    {
         std::cout<<"Aluno reprovado."<<std::endl;
-    }else if(media >= 5.0 && media <= 6.9){
+    }
+    else if(media >= 5.0 && media <= 6.9)
+    {
         std::cout<<"Aluno em exame."<<std::endl;
 
         std::cin>>nota_exame;
@@ -26,9 +32,12 @@ int main(){
 
         media = (media + nota_exame)/2;
 
-        if(media >= 5.0){
+        if(media >= 5.0)
+        {
             std::cout<<"Aluno aprovado."<<std::endl;
-        }else if(media >= 4.9){
+        }
+        else if(media >= 4.9)
+        {
             std::cout<<"Aluno reprovado."<<std::endl;
         }
 

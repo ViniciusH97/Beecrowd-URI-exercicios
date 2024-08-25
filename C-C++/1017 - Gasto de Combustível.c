@@ -7,9 +7,11 @@ int main()
 
    scanf("%d", &T);
    scanf("%d", &VM);
+
    DP = T * VM;
    L = DP / 12.0;
    printf("%.3lf\n", L);
+   
 
    return 0;
 }
