@@ -14,9 +14,7 @@ rl.question('', (inputa) =>{
 
             a*=2; b*=3; c*=5;
 
-            if(media => 0 && media <= 10){
-                media = (a + b + c) / 3;
-            }
+            media = (a + b + c) / 10;
 
             console.log(`MEDIA = ${media.toFixed(1)}`);
 
