@@ -2,7 +2,7 @@ const readline = require('readline')
 
 const rl = readline.createInterface({
     input: process.stdin,
-    output: process.output,
+    output: process.stdout,
 })
 
 rl.question('', (inputVendedor) =>{
@@ -12,13 +12,13 @@ rl.question('', (inputVendedor) =>{
             let salario_fixo = parseFloat(inputSalarioFixo);
             let montante = parseFloat(inputMontanteTotal);
 
-            let comiissao = 0;
+            let comissao = 0;
 
             comissao = montante * 0.15;
 
-            montante = comissao + salario_fixo;
+            let total = comissao + salario_fixo;
 
-            console.log(`TOTAL = ${salario_fixo}`);
+            console.log(`TOTAL = R$ ${total.toFixed(2)}`);
 
             rl.close();
         });
