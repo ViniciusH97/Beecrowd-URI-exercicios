@@ -5,8 +5,9 @@ const rl = readline.createInterface({
     output: processstdout,
 })
 
+
 let total=0, count=0;
 
 function processinput(){
-    
+
 }
