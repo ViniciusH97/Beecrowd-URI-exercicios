@@ -19,6 +19,7 @@ int main(void){
             quantidade_coelho += input;
             total += input;
 
+
         }else if(tipo == "R"){
             quantidade_rato += input;
             total += input;
