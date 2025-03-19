@@ -5,12 +5,12 @@ const rl = readline.createInterface({
     output: process.stdout,
 })
 
-rl.question('', (inputa) =>{
-    rl.question('', (inputb) =>{
-        rl.question('', (inputc)=>{
-            let a = parseFloat(inputa);
-            let b = parseFloat(inputb);
-            let c = parseFloat(inputc);
+rl.question('', (input_a) =>{
+    rl.question('', (input_b) =>{
+        rl.question('', (input_c)=>{
+            let a = parseFloat(input_a);
+            let b = parseFloat(input_b);
+            let c = parseFloat(input_c);
 
             a*=2; b*=3; c*=5;
 
