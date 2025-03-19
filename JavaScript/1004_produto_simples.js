@@ -5,10 +5,10 @@ const rl = readline.createInterface({
     output: process.stdout,
 });
 
-rl.question('', (inputa)=>{
-    rl.question('', (inputb)=>{
-        const a = parseInt(inputa);
-        const b = parseInt(inputb);
+rl.question('', (input_a)=>{
+    rl.question('', (input_b)=>{
+        const a = parseInt(input_a);
+        const b = parseInt(input_b);
 
         const prod = a*b;
 
