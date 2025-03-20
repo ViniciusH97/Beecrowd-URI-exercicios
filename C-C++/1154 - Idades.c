@@ -1,15 +1,12 @@
 #include <stdio.h>
 
-int main()
-{
+int main(){
     int I = 1, S = 0, C = 0;
     double M;
 
-    while (I > 0)
-    {
+    while (I > 0){
         scanf("%d", &I);
-        if (I > 0)
-        {
+        if (I > 0){
             S = S + I;
             C++;
         }
