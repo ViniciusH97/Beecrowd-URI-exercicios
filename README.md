@@ -8,8 +8,4 @@
 
 Beecrowd é uma plataforma online voltada para a prática e aprendizado de programação. Com desafios de diferentes níveis de dificuldade, a plataforma é amplamente utilizada por estudantes, desenvolvedores e entusiastas da programação para melhorar suas habilidades de codificação.
 
-## Objetivos
-
-- **Educação:** Proporcionar um ambiente para estudantes aprenderem e praticarem programação.
-- **Competição:** Hospedar competições de programação para incentivar o aprendizado competitivo.
-- **Comunidade:** Criar uma comunidade colaborativa de programadores.
+Este repositório é destinado a manter salvo os exercícios resolvidos por mim.
